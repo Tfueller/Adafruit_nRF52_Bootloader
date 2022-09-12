@@ -36,7 +36,7 @@ enum
     OP_CODE_IMAGE_SIZE_REQ     = 7,                                             /**< Value of the Op code field for 'Report received image size' command.*/
     OP_CODE_PKT_RCPT_NOTIF_REQ = 8,                                             /**< Value of the Op code field for 'Request packet receipt notification.*/
     OP_CODE_RESPONSE           = 16,                                            /**< Value of the Op code field for 'Response.*/
-    OP_CODE_PKT_RCPT_NOTIF     = 17                                             /**< Value of the Op code field for 'Packets Receipt Notification'.*/
+    OP_CODE_PKT_RCPT_NOTIF     = 6                                             /**< Value of the Op code field for 'Packets Receipt Notification'.*/
 };
 
 static bool     m_is_dfu_service_initialized = false;                           /**< Variable to check if the DFU service was initialized by the application.*/
